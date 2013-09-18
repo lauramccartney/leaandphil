@@ -72,6 +72,11 @@ p {
     background:             #D6D6D6;
 }
 
+.snowflake {
+    background-image:      url('img/snowflake.png');
+    position:               absolute;
+}
+
 #footer {
     float:                  right;
     background:             #000;
