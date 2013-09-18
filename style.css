@@ -25,14 +25,37 @@ h1 {
 }
 
 .underline {
-    background:             url('img/theplan_underline.png') no-repeat;
-    margin:                 -10px 0px 0px 55px;
-    width:                  350px;
+    background-repeat:      no-repeat;
+    margin:                 -10px 0px 0px 47px;
+    width:                  600px;
     height:                 20px;
+}
+
+.plan {
+    background-image:             url('img/theplan_underline.png');
+}
+
+.church {
+    background-image:             url('img/thechurch_underline.png'); 
+}
+
+.close {
+    background-image:             url('img/closehouse_underline.png');   
+}
+
+.menu {
+    background-image:             url('img/menu_underline.png');
+}
+
+.gifts {
+    background-image:             url('img/gifts_underline.png');
 }
 
 p {
     margin:                 70px;
+	text-rendering:         optimizeLegibility; 
+	letter-spacing:         0;
+    color:                  #323337
 }
 
 .sections {
