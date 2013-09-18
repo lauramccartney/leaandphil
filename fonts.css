@@ -1,0 +1,43 @@
+@font-face {
+                  font-family: 'HoeflerText-Black';
+                  src: url('/fonts/HoeflerText/HoeflerTextBlack.eot');
+ }
+
+@font-face {
+                  font-family: 'HoeflerText-Black';
+                  src: url('/fonts/HoeflerText/HoeflerTextBlack.woff') format('woff'),
+                  url('/fonts/HoeflerText/HoeflerTextBlack.svg#HoeflerText-Black') format('svg');
+ }
+ 
+ @font-face {
+                   font-family: 'HoeflerText-BlackItalic';
+                   src: url('/fonts/HoeflerText/HoeflerTextBlackItalic.eot');
+  }
+
+ @font-face {
+                   font-family: 'HoeflerText-BlackItalic';
+                   src: url('/fonts/HoeflerText/HoeflerTextBlackItalic.woff') format('woff'),
+                   url('/fonts/HoeflerText/HoeflerTextBlackItalic.svg#HoeflerText-BlackItalic') format('svg');
+  }
+  
+  @font-face {
+                    font-family: 'HoeflerText-Italic';
+                    src: url('/fonts/HoeflerText/HoeflerTextItalic.eot');
+   }
+
+  @font-face {
+                    font-family: 'HoeflerText-Italic';
+                    src: url('/fonts/HoeflerText/HoeflerTextItalic.woff') format('woff'),
+                    url('/fonts/HoeflerText/HoeflerTextItalic.svg#HoeflerText-Italic') format('svg');
+   }
+   
+   @font-face {
+                     font-family: 'HoeflerText-Regular';
+                     src: url('/fonts/HoeflerText/HoeflerText.eot');
+    }
+
+   @font-face {
+                     font-family: 'HoeflerText-Regular';
+                     src: url('/fonts/HoeflerText/HoeflerText.woff') format('woff'),
+                     url('/fonts/HoeflerText/HoeflerText.svg#HoeflerText-Regular') format('svg');
+    }
