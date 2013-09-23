@@ -56,7 +56,7 @@ p {
 }
 
 #downButton {
-    background:             url('/img/downbutton.png') no-repeat;
+    background:             url('../img/downbutton.png') no-repeat;
     background-position:    bottom center;
     height:                 90px;
 }
@@ -175,23 +175,23 @@ h2 {
 }
 
 .plan {
-    background-image:       url('/img/theplan_underline.png');
+    background-image:       url('../img/theplan_underline.png');
 }
 
 .church {
-    background-image:       url('/img/thechurch_underline.png'); 
+    background-image:       url('../img/thechurch_underline.png'); 
 }
 
 .closeHouse {
-    background-image:       url('/img/closehouse_underline.png');   
+    background-image:       url('../img/closehouse_underline.png');   
 }
 
 .menu {
-    background-image:       url('/img/menu_underline.png');
+    background-image:       url('../img/menu_underline.png');
 }
 
 .gifts {
-    background-image:       url('/img/gifts_underline.png');
+    background-image:       url('../img/gifts_underline.png');
 }
 
 
