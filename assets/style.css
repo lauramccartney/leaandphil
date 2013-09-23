@@ -1,21 +1,21 @@
 body, html {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
+    width:                  100%;
+    height:                 100%;
+    overflow:               hidden;
+    padding:                0;
+    margin:                 0;
     background:             url('../img/blurred.png') fixed no-repeat bottom right;
 }
 
 
 /* All Articles */
 #wrapper {
-    width: 100%;
-    height: 100%;
+    width:                  100%;
+    height:                 100%;
 }
 
 article {
-    overflow: hidden;
+    overflow:               hidden;
 }
 
 
@@ -35,6 +35,7 @@ p {
 	text-rendering:         optimizeLegibility; 
 	letter-spacing:         0;
     color:                  #fff;
+    text-shadow:            1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .snowflake {
@@ -71,9 +72,9 @@ p {
     height:                 359px;
     
     
-    -webkit-box-shadow: 1px 1px 9px rgba(50, 50, 50, 0.30);
-    -moz-box-shadow:    1px 1px 9px rgba(50, 50, 50, 0.30);
-    box-shadow:         1px 1px 9px rgba(50, 50, 50, 0.30);
+    -webkit-box-shadow:     1px 1px 9px rgba(50, 50, 50, 0.30);
+    -moz-box-shadow:        1px 1px 9px rgba(50, 50, 50, 0.30);
+    box-shadow:             1px 1px 9px rgba(50, 50, 50, 0.30);
 }
 
 
@@ -135,29 +136,29 @@ h2 {
 /*Underlines*/
 .underline {
     background-repeat:      no-repeat;
-    margin:                 -10px 0px 0px 47px;
-    width:                  600px;
     height:                 20px;
+    background-position:    center;
+    margin-top:             -15px;
 }
 
 .plan {
-    background-image:             url('img/theplan_underline.png');
+    background-image:       url('/img/theplan_underline.png');
 }
 
 .church {
-    background-image:             url('img/thechurch_underline.png'); 
+    background-image:       url('/img/thechurch_underline.png'); 
 }
 
 .closeHouse {
-    background-image:             url('img/closehouse_underline.png');   
+    background-image:       url('/img/closehouse_underline.png');   
 }
 
 .menu {
-    background-image:             url('img/menu_underline.png');
+    background-image:       url('/img/menu_underline.png');
 }
 
 .gifts {
-    background-image:             url('img/gifts_underline.png');
+    background-image:       url('/img/gifts_underline.png');
 }
 
 
@@ -166,47 +167,47 @@ h2 {
 
 /* Navigation */
 nav {
-    position: fixed;
-    left: 1em;
-    top: 0;
-    bottom: 0;
-    width: 1em;
-    height: 6em;
-    margin: auto;
-    z-index: 101;
-    font-size: 16px;
-    text-align: center;
+    position:               fixed;
+    left:                   1em;
+    top:                    0;
+    bottom:                 0;
+    width:                  1em;
+    height:                 6em;
+    margin:                 auto;
+    z-index:                101;
+    font-size:              16px;
+    text-align:             center;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-    line-height: 1;
+    list-style:             none;
+    padding:                0;
+    text-align:             center;
+    line-height:            1;
 }
 
 nav ul li {
-    padding: 5px 0;
+    padding:                5px 0;
 }
 
 nav ul a {
-    text-decoration: none;
-    background: #aaa;
-    display: block;
-    width: 8px;
-    height: 8px;
-    border: 3px solid transparent;
-    border-radius: 4px;
-    margin: 0 auto;
-    -webkit-transition: all 0.25s ease;
-    -moz-transition: all 0.25s ease;
-    -o-transition: all 0.25s ease;
-    transition: all 0.25s ease;
+    text-decoration:        none;
+    background:             #aaa;
+    display:                block;
+    width:                  8px;
+    height:                 8px;
+    border:                 3px solid transparent;
+    border-radius:          4px;
+    margin:                 0 auto;
+    -webkit-transition:     all 0.25s ease;
+    -moz-transition:        all 0.25s ease;
+    -o-transition:          all 0.25s ease;
+    transition:             all 0.25s ease;
 }
 
 nav ul a.active {
-    background: transparent;
-    border: 1px solid #aaa;
-    width: 10px;
-    height: 10px;
+    background:             transparent;
+    border:                 1px solid #aaa;
+    width:                  10px;
+    height:                 10px;
 }
