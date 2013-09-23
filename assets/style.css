@@ -115,6 +115,7 @@ h2 {
     font-family:            "HoeflerText-Regular", sans-serif;
 	text-rendering:         optimizeLegibility; 
 	letter-spacing:         0;
+    color:                  #fff;
 }
 
 .menuText {
@@ -122,15 +123,48 @@ h2 {
     margin-top:             -10px;
 }
 
+/*Slider page*/
+#slider { 
+    position:               relative;
+    margin-left:            auto;
+    margin-right:           auto;
+    margin-top:             50px;
+    overflow:               auto; 
+    width:                  600px;
+    height:                 400px;
+    
+    -webkit-box-shadow:     1px 1px 9px rgba(50, 50, 50, 0.30);
+    -moz-box-shadow:        1px 1px 9px rgba(50, 50, 50, 0.30);
+    box-shadow:             1px 1px 9px rgba(50, 50, 50, 0.30);
+}
 
+#slider li { 
+    list-style:             none; 
+}
 
+#slider ul li { 
+    float:                  left; 
+}
 
+#rsvp {
+    text-align:             center;
+}
 
 /*Footer*/
 #linkFooter {
     background-color:       #323337;
     background-position:    bottom;
     height:                 1000px;
+    color:                  #c0bebd;
+}
+
+#footerText {
+    color:                  #c0bebd;
+    text-align:             center;
+	text-rendering:         optimizeLegibility; 
+	letter-spacing:         0;
+    text-shadow:            none;
+    font-size:              14px;
 }
 
 /*Underlines*/
@@ -138,7 +172,6 @@ h2 {
     background-repeat:      no-repeat;
     height:                 20px;
     background-position:    center;
-    margin-top:             -15px;
 }
 
 .plan {

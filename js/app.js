@@ -19,3 +19,7 @@ $('nav a').on('click', function(e) {
     e.preventDefault();
     $snappish.trigger('scrollto.snappish', $(this).data('slide-num'));
 });
+
+$(function() {
+    $('#slider').unslider();
+});
