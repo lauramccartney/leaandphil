@@ -4,9 +4,6 @@ body, html {
     overflow: hidden;
     padding: 0;
     margin: 0;
-}
-
-body {
     background:             url('../img/blurred.png') fixed no-repeat bottom right;
 }
 
@@ -29,7 +26,7 @@ h1 {
     font-family:            "HoeflerText-Regular", sans-serif;
 	text-rendering:         optimizeLegibility; 
 	letter-spacing:         0;
-    color:                  #323337;
+    color:                  #fff;
 }
 
 
@@ -37,15 +34,17 @@ p {
     margin:                 90px 200px 50px 200px;
 	text-rendering:         optimizeLegibility; 
 	letter-spacing:         0;
-    color:                  #323337;
+    color:                  #fff;
 }
 
-.dark {
-    background:             #d0CCCC;
-}
-
-.light {
-    background:             #D6D6D6;
+.snowflake {
+    position:               absolute;
+    top:                    0px;
+    bottom:                 0px;
+    right:                  0px;
+    left:                   0px;
+    background-image:       url('../img/snowflaketransparent.png');
+    z-index:                -1;
 }
 
 /* First Slide */
