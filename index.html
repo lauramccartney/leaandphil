@@ -74,13 +74,17 @@
                 
                 <article class="sections">
                     <div class="snowflake"></div>
-                        <div id="slider">
-                                <ul>
-                                    <li><img src="./img/photo1.jpg"></li>
-                                    <li><img src="./img/photo2.jpg"></li>
-                                    <li><img src="./img/photo3.jpg"></li>
-                                </ul>
-                        </div>
+                            <div id="myCarousel" class="carousel slide">
+                              <div class="carousel-inner">
+                                <div class="active item"><img src="./img/photo1.jpg"></div>
+                                <div class="item"><img src="./img/photo2.jpg"></div>
+                                <div class="item"><img src="./img/photo3.jpg"></div>
+                              </div>
+<!--
+                              <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                              <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>-->
+
+                            </div>
                         <p id="rsvp">RSVP to leaandpea@poop.com.<br>Let us know blah blah blah!</p>
                         <div id="linkFooter">
                             <p id="footerText">&copy;laufofbread</p>
@@ -88,14 +92,16 @@
             </div>
         </div>
 
+        
         <script src="./js/jquery/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="./js/bootstrap-3.0.0/dist/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
         <script src="./js/jquery/jquery-mousewheel/jquery.mousewheel.js" type="text/javascript" charset="utf-8"></script>
         <script src="./js/jquery/stephband-jquery.event.move-9e24aa1/js/jquery.event.move.js" type="text/javascript" charset="utf-8"></script>
         <script src="./js/jquery/stephband-jquery.event.swipe-9bf15b5/js/jquery.event.swipe.js" type="text/javascript" charset="utf-8"></script>
         <script src="./js/jquery/jquery-snappish-0.2.0/jquery.snappish.js" type="text/javascript" charset="utf-8"></script>
         <script src="./js/app.js" type="text/javascript" charset="utf-8"></script>
-        <script src="./js/jquery/unslider.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="./js/bootstrap-3.0.0/dist/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+        <script src="./js/bootstrap-3.0.0/js/carousel.js" type="text/javascript" charset="utf-8"></script>
+        <script src="./js/bootstrap-3.0.0/js/transition.js" type="text/javascript" charset="utf-8"></script>
 
     </body>
 </html>

@@ -20,6 +20,10 @@ $('nav a').on('click', function(e) {
     $snappish.trigger('scrollto.snappish', $(this).data('slide-num'));
 });
 
-$(function() {
-    $('#slider').unslider();
+$(document).ready(function () {
+    $('.carousel').carousel({
+        interval: 3000
+    });
+
+    $('.carousel').carousel('cycle');
 });
