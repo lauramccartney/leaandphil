@@ -55,7 +55,7 @@ p {
     height:                 650px;
 }
 
-#downButton {
+.downButton {
     background:             url('../img/downbutton.png') no-repeat;
     background-position:    bottom center;
     height:                 90px;
