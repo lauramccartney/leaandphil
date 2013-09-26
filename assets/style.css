@@ -154,12 +154,13 @@ h2 {
 }
 
 #footerText {
-    color:                  #c0bebd;
+    color:                  #666;
     text-align:             center;
 	text-rendering:         optimizeLegibility; 
 	letter-spacing:         0;
     text-shadow:            none;
     font-size:              14px;
+    padding:                30px;
 }
 
 /*Underlines*/
