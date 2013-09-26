@@ -36,7 +36,6 @@ h1 {
 
 
 p {
-    margin:                 90px 200px 50px 200px;
 	text-rendering:         optimizeLegibility; 
 	letter-spacing:         0;
     color:                  #fff;
@@ -51,6 +50,11 @@ p {
     right:                  0px;
     left:                   0px;
     background-image:       url('../img/snowflaketransparent.png');
+}
+
+.container {
+    width:                  1500px;
+    height:                 100%;
 }
 
 /* First Slide */
@@ -85,8 +89,7 @@ p {
 
 /*Church page*/
 #churchText {
-    margin-right:           700px;
-    float:                  right;
+    width:                  400px;
 }
 
 #churchMap {
