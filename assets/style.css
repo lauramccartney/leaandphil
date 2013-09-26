@@ -5,6 +5,10 @@ body, html {
     padding:                0;
     margin:                 0;
     background:             url('../img/blurred.png') fixed no-repeat bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
@@ -51,9 +55,10 @@ p {
 
 /* First Slide */
 #titleImage {
-    background:             url('../img/titledate.png') no-repeat;
-    background-position:    center center;
-    height:                 650px;
+    background:             url('../img/titledate.png') no-repeat center center;
+    height:                 530px;
+    margin-top:             auto;
+    margin-bottom:          auto;
 }
 
 .downButton {
