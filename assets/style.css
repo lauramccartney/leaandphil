@@ -57,8 +57,7 @@ p {
 #titleImage {
     background:             url('../img/titledate.png') no-repeat center center;
     height:                 100%;
-    margin-top:             auto;
-    margin-bottom:          auto;
+    margin-top:             -30px;
 }
 
 .downButton {
