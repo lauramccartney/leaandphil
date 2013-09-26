@@ -56,7 +56,7 @@ p {
 /* First Slide */
 #titleImage {
     background:             url('../img/titledate.png') no-repeat center center;
-    height:                 530px;
+    height:                 100%;
     margin-top:             auto;
     margin-bottom:          auto;
 }
