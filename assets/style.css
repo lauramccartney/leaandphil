@@ -25,7 +25,7 @@ article {
 
 h1 {
     text-align:             center;
-    margin:                 70px 0px 0px 0px;
+    margin:                 70px;
     font-size:              70px;
     font-family:            "Heffler Text", sans-serif;
 	text-rendering:         optimizeLegibility; 
@@ -53,7 +53,7 @@ p {
 }
 
 .container {
-    width:                  1500px;
+    width:                  1400px;
     height:                 100%;
 }
 
@@ -89,7 +89,8 @@ p {
 
 /*Church page*/
 #churchText {
-    width:                  400px;
+    width:                  650px;
+    padding:            80px 80px 0px 0px;
 }
 
 #churchMap {
@@ -103,8 +104,9 @@ p {
 
 /*Close House page*/
 #closeText {
-    margin-left:            700px;
-    float:                  left;
+    width:                  650px;
+    padding:                80px 0px 0px 80px;
+    float:                  right;
 }
 #closeHouseImage {
     position:               absolute;
@@ -154,10 +156,12 @@ h2 {
 /*Footer*/
 #linkFooter {
     background-color:       #323337;
-    background-position:    bottom;
+    background-position:    bottom center;
     height:                 1000px;
+    width:                  100%;
     color:                  #c0bebd;
-    position:               relative;
+    position:               absolute;
+    margin-top:             -100px;
 }
 
 #footerText {
@@ -167,7 +171,7 @@ h2 {
 	letter-spacing:         0;
     text-shadow:            none;
     font-size:              14px;
-    padding:                30px;
+    padding:                80px;
 }
 
 /*Underlines*/
@@ -176,6 +180,7 @@ h2 {
     height:                 20px;
     background-position:    center;
     position:               relative;
+    margin-top:             -90px;
 }
 
 .plan {
