@@ -11,8 +11,8 @@
     currentSlideNum = 0;
     scrollDistancePerSlide = 100 / numberOfSlides;
     inTransition = false;
-    transitionDuration = $main.css('transition-duration').toString();
-    if (transitionDuration.match(/s$/)) {
+    transitionDuration = $main.css('transition-duration');
+    if (transitionDuration.toString().match(/s$/)) {
       transitionDuration = transitionDuration.replace(/s$/, '') * 1000;
     } else {
       transitionDuration = transitionDuration.replace(/ms$/, '') * 1;
