@@ -2,7 +2,6 @@ $(document).ready(function () {
     var $snappish = $('#wrapper').snappish();
 
     $snappish.on('scrollbegin.snappish', function(e, data) {
-        console.log(e, data);
         data.toSlide.addClass('active');
         $('nav a').removeClass('active');
         $('nav a[data-slide-num="' + data.toSlideNum + '"]').addClass('active');
