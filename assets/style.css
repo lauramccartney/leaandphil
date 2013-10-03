@@ -25,8 +25,9 @@ article {
 
 h1 {
     text-align:             center;
-    margin:                 70px;
+    margin-top:             70px;
     font-size:              70px;
+    line-height:            40px;
     font-family:            "Heffler Text", sans-serif;
 	text-rendering:         optimizeLegibility; 
 	letter-spacing:         0;
@@ -36,6 +37,7 @@ h1 {
 
 
 p {
+    font-size:              18px;
 	text-rendering:         optimizeLegibility; 
 	letter-spacing:         0;
     color:                  #fff;
@@ -73,7 +75,7 @@ p {
 /*Common page elements*/
 /*Margin between header and first line. Needs to be different to margins within p tag*/
 .topMargin {
-    margin-top:             70px;
+    margin-top:             40px;
 }
 
 .images {
@@ -88,9 +90,8 @@ p {
 
 
 /*Church page*/
-#churchText {
-    width:                  650px;
-    padding:            80px 80px 0px 0px;
+.churchText {
+    width:                  600px;
 }
 
 #churchMap {
@@ -103,9 +104,8 @@ p {
 
 
 /*Close House page*/
-#closeText {
-    width:                  650px;
-    padding:                80px 0px 0px 80px;
+.closeText {
+    width:                  600px;
     float:                  right;
 }
 #closeHouseImage {
@@ -162,7 +162,7 @@ h2 {
     width:                  100%;
     color:                  #c0bebd;
     position:               absolute;
-    margin-top:             -100px;
+    margin-top:             -35px;
 }
 
 #footerText {
@@ -172,16 +172,15 @@ h2 {
 	letter-spacing:         0;
     text-shadow:            none;
     font-size:              14px;
-    padding:                80px;
+    padding:                10px;
 }
 
 /*Underlines*/
 .underline {
     background-repeat:      no-repeat;
-    height:                 20px;
+    height:                 40px;
     background-position:    center;
     position:               relative;
-    margin-top:             -90px;
 }
 
 .plan {
@@ -196,13 +195,15 @@ h2 {
     background-image:       url('../img/closehouse_underline.png');   
 }
 
-.menu {
-    background-image:       url('../img/menu_underline.png');
+.bits {
+    background-image:       url('../img/otherbitsunderline.png');
 }
 
-.gifts {
-    background-image:       url('../img/gifts_underline.png');
+.story {
+    background-image:       url('../img/storyunderline.png');
 }
+
+
 
 
 
