@@ -104,28 +104,25 @@ p {
 /*Church page*/
 .churchText {
     width:                  600px;
+    float:                  left;
 }
 
 #churchMap {
-    float:                  right;
     position:               relative;
-/*    top:                    -480px;
-    right:                  0px;
-    left:                   650px;*/
+    top:                    -415px;
+    float:                  right;
 }
 
 span {
-    clear:                  both;
-    font-size:              16px;
-	text-rendering:         optimizeLegibility; 
-	letter-spacing:         0;
-    color:                  #fff;
-/*    text-shadow:            1px 1px 3px rgba(0, 0, 0, 0.5);*/
-    position:               relative;
-    top:                    20px;
-    right:                  50%;
-    left:                   50%;
-    bottom:                 0;
+    position:               absolute;
+    font-size:              14px;
+    text-rendering:         optimizeLegibility; 
+    letter-spacing:         0;
+    color:                  #d0d0d0;
+    text-decoration:        none;
+    text-align:             center;
+    padding-top:            5px;
+    width:                  500px;
 }
 
 h3 {
