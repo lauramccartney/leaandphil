@@ -37,12 +37,16 @@ h1 {
 
 
 p {
-    font-size:              18px;
+    font-size:              16px;
 	text-rendering:         optimizeLegibility; 
 	letter-spacing:         0;
     color:                  #fff;
     text-shadow:            1px 1px 3px rgba(0, 0, 0, 0.5);
     position:               relative;
+}
+
+.centerText {
+    text-align:             center;
 }
 
 .snowflake {
@@ -54,8 +58,15 @@ p {
     background-image:       url('../img/snowflaketransparent.png');
 }
 
+
+/*containers*/
 .container {
     width:                  1400px;
+    height:                 100%;
+}
+
+.textPage {
+    width:                  800px;
     height:                 100%;
 }
 
@@ -75,7 +86,7 @@ p {
 /*Common page elements*/
 /*Margin between header and first line. Needs to be different to margins within p tag*/
 .topMargin {
-    margin-top:             40px;
+    margin-top:             60px;
 }
 
 .images {
@@ -95,11 +106,8 @@ p {
 }
 
 #churchMap {
-    position:               absolute;
-    top:                    237px;
-    bottom:                 auto;
-    right:                  140px;
-    left:                   auto;
+    margin-top:                    0px;
+    margin-right:                  0px;
 }
 
 
@@ -120,12 +128,12 @@ p {
 /*Menu page*/
 h2 {
     text-align:             center;
-    margin:                 40px auto 20px auto;
+    margin:                 60px auto 10px auto;
     font-size:              30px;
     font-family:            "Heffler Text", sans-serif;
 	text-rendering:         optimizeLegibility; 
 	letter-spacing:         0;
-    color:                  #fff;
+    color:                  #d0d0d0;
     position:               relative;
 }
 
@@ -178,7 +186,7 @@ h2 {
 /*Underlines*/
 .underline {
     background-repeat:      no-repeat;
-    height:                 40px;
+    height:                 20px;
     background-position:    center;
     position:               relative;
 }
