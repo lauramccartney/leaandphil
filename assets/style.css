@@ -114,7 +114,6 @@ p {
 }
 
 span {
-    position:               absolute;
     font-size:              14px;
     text-rendering:         optimizeLegibility; 
     letter-spacing:         0;
@@ -125,6 +124,10 @@ span {
     width:                  500px;
 }
 
+#churchAddress {
+    position:               absolute;
+}
+
 h3 {
     position:               relative;
     font-size:              25px;
@@ -133,8 +136,10 @@ h3 {
 	text-rendering:         optimizeLegibility; 
 	letter-spacing:         0;
     color:                  #d0d0d0;
+    margin-top:             15px;
     margin-bottom:          0px;
     text-shadow:            1px 1px 4px rgba(0, 0, 0, 0.3);
+    
 }
 
 .directions {
@@ -154,11 +159,13 @@ h3 {
     float:                  right;
 }
 #closeHouseImage {
-    position:               absolute;
-    top:                    237px;
-    bottom:                 auto;
-    right:                  auto;
-    left:                   140px;
+    position:               relative;
+    top:                    60px;
+}
+
+#hotelAddress {
+    float:                  left;
+    z-index:                99999;
 }
 
 
