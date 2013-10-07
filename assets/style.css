@@ -41,7 +41,7 @@ p {
 	text-rendering:         optimizeLegibility; 
 	letter-spacing:         0;
     color:                  #fff;
-    text-shadow:            1px 1px 3px rgba(0, 0, 0, 0.5);
+/*    text-shadow:            1px 1px 3px rgba(0, 0, 0, 0.5);*/
     position:               relative;
 }
 
@@ -107,24 +107,47 @@ p {
 }
 
 #churchMap {
-    margin-top:                    0px;
-    margin-right:                  0px;
+    float:                  right;
+    position:               relative;
+/*    top:                    -480px;
+    right:                  0px;
+    left:                   650px;*/
 }
 
+span {
+    clear:                  both;
+    font-size:              16px;
+	text-rendering:         optimizeLegibility; 
+	letter-spacing:         0;
+    color:                  #fff;
+/*    text-shadow:            1px 1px 3px rgba(0, 0, 0, 0.5);*/
+    position:               relative;
+    top:                    20px;
+    right:                  50%;
+    left:                   50%;
+    bottom:                 0;
+}
 
 h3 {
-    font-size:              16px;
+    position:               relative;
+    font-size:              25px;
     line-height:            1.5em;
     font-family:            "Heffler Text", sans-serif;
 	text-rendering:         optimizeLegibility; 
 	letter-spacing:         0;
     color:                  #d0d0d0;
+    margin-bottom:          0px;
+    text-shadow:            1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .directions {
     font-size:              14px;
     line-height:            1.5em;
     text-rendering:         optimizeLegibility; 
+}
+
+.extraMargin {
+    margin-top:             20px;
 }
 
 
@@ -152,6 +175,7 @@ h2 {
 	letter-spacing:         0;
     color:                  #d0d0d0;
     position:               relative;
+    text-shadow:            1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .menuText {
