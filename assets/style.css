@@ -90,15 +90,6 @@ p {
     margin-top:             60px;
 }
 
-.images {
-    width:                  500px;
-    height:                 359px;
-    
-    
-    -webkit-box-shadow:     1px 1px 9px rgba(50, 50, 50, 0.30);
-    -moz-box-shadow:        1px 1px 9px rgba(50, 50, 50, 0.30);
-    box-shadow:             1px 1px 9px rgba(50, 50, 50, 0.30);
-}
 
 
 /*Church page*/
@@ -107,26 +98,6 @@ p {
     float:                  left;
 }
 
-#churchMap {
-    position:               relative;
-    top:                    -415px;
-    float:                  right;
-}
-
-span {
-    font-size:              14px;
-    text-rendering:         optimizeLegibility; 
-    letter-spacing:         0;
-    color:                  #d0d0d0;
-    text-decoration:        none;
-    text-align:             center;
-    padding-top:            5px;
-    width:                  500px;
-}
-
-#churchAddress {
-    position:               absolute;
-}
 
 h3 {
     position:               relative;
@@ -158,14 +129,45 @@ h3 {
     width:                  600px;
     float:                  right;
 }
+
+
+/* images */
+
 #closeHouseImage {
     position:               relative;
-    top:                    60px;
+    top:                    -355px;
+    float:                  left;
+    height:                 500px;
+    width:                  500px;
 }
 
-#hotelAddress {
-    float:                  left;
-    z-index:                99999;
+#churchMap {
+    position:               relative;
+    top:                    -415px;
+    float:                  right;
+    height:                 500px;
+    width:                  500px;
+}
+
+.addresses {
+    font-size:              14px;
+    text-rendering:         optimizeLegibility; 
+    letter-spacing:         0;
+    color:                  #d0d0d0;
+    text-decoration:        none;
+    text-align:             center;
+    padding-top:            5px;
+    width:                  500px;
+}
+
+.images {
+    width:                  500px;
+    height:                 359px;
+    
+    
+    -webkit-box-shadow:     1px 1px 9px rgba(50, 50, 50, 0.30);
+    -moz-box-shadow:        1px 1px 9px rgba(50, 50, 50, 0.30);
+    box-shadow:             1px 1px 9px rgba(50, 50, 50, 0.30);
 }
 
 
@@ -185,6 +187,24 @@ h2 {
 .menuText {
     text-align:             center;
     margin-top:             -10px;
+}
+
+/*otherbits page*/
+
+.taxis {
+    display:                inline-block;
+    width:                  150px;
+    text-align:             left;
+}
+
+.accomodation {
+    display:                inline-block;
+    width:                  280px;
+    text-align:             left;
+}
+
+a {
+    color:                  #d0d0d0;
 }
 
 /*Slider page*/
