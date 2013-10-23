@@ -224,28 +224,10 @@ a {
 
 #rsvp {
     text-align:             center;
-    padding:                60px;
-}
-
-/*Footer*/
-#linkFooter {
-    background-color:       #323337;
-    background-position:    bottom center;
-    height:                 1000px;
-    width:                  100%;
-    color:                  #c0bebd;
-    position:               absolute;
-    margin-top:             -35px;
-}
-
-#footerText {
-    color:                  #666;
-    text-align:             center;
-	text-rendering:         optimizeLegibility; 
-	letter-spacing:         0;
-    text-shadow:            none;
-    font-size:              14px;
-    padding:                10px;
+    margin-top:             50px;
+    margin-right:           auto;
+    margin-left:            auto;
+    width:                  600px;
 }
 
 /*Underlines*/
@@ -327,4 +309,107 @@ nav ul a.active {
     border:                 1px solid #aaa;
     width:                  10px;
     height:                 10px;
+}
+
+
+
+/*responsive changes*/
+
+@media only screen and (max-width:1200px) {
+    
+    .container {
+        max-width:              1100px !important;
+    }
+    
+    .images {
+        width:              400px;
+        height:             287px;
+    }
+    
+    #churchMap {
+        width:              400px;
+        margin-right:       25px;
+        top:                -370px;
+    }
+    
+    .churchText {
+        margin-left:        25px;
+    }
+    
+    #closeHouseImage {
+        width:              400px;
+        margin-left:        25px;
+        top:                -335px;
+    }
+    
+    .closeText {
+        margin-right:       35px;
+    }
+    
+    /*top titles*/
+    h1 {
+        font-size:          64px;
+        margin-top:         45px;
+        margin-bottom:      0px;
+    }
+    
+    .topMargin {
+        margin-top:         20px;
+    }
+    
+    h3 {
+        margin-top:         0px;
+    }
+    
+    h2 {
+        margin-top:         20px;
+    }
+    
+    #myCarousel {
+        margin-top:         20px;
+    }
+    
+    #rsvp {
+        padding-top:        20px;
+    }
+    
+}
+
+@media only screen and (max-width:1100px){
+    
+    /*Mid page titles in grey "dress code"etc.*/
+    
+    .container {
+        max-width:          650px !important;
+    }
+    
+    .images {
+        display:            none;
+    }
+    
+    .addresses {
+        display:            none;
+    }
+    
+    .churchText {
+        float:              none;
+        margin-left:        0px;
+    }
+    
+    .closeText {
+        float:              none;
+        margin-right:       0px;
+    }
+    
+/*    h3 {
+        font-size:          23px;
+    }
+    
+    p {
+        font-size:          14px;
+    }
+    
+    .directions{
+        font-size:          12px;
+    }*/
 }
