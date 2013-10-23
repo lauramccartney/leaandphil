@@ -415,7 +415,7 @@ nav ul a.active {
     }*/
 }
 
-@media only screen and (max-width : 320px){
+@media only screen and (max-width : 340px){
     
     .container{
         max-width:          320px !important;
