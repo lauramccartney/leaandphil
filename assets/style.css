@@ -401,27 +401,4 @@ nav ul a.active {
         float:              none;
         margin-right:       0px;
     }
-    
-/*    h3 {
-        font-size:          23px;
-    }
-    
-    p {
-        font-size:          14px;
-    }
-    
-    .directions{
-        font-size:          12px;
-    }*/
-}
-
-@media only screen and (max-width : 340px){
-    
-    .container{
-        max-width:          320px !important;
-    }
-    
-    p {
-        font-size:          24px;
-    }
 }
