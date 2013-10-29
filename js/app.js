@@ -1,6 +1,20 @@
 $(document).ready(function () {
     var $snappish = $('body').snappish();
 
+    // Fade out the loading background
+    // Uses CSS3 animations rather than jQuery
+    // We don't show the box at all on < IE10 so it's always display:none;
+    $("#loading-background").transition({
+        opacity: 0,
+        duration: 1000,
+        delay: 1000,
+        easing: 'ease',
+        complete: function() {
+            $(this).remove();
+        }
+    });
+
+
     // Start snappish on trackpad scroll
     $snappish.on('scrollbegin.snappish', function(e, data) {
         data.toSlide.addClass('active');

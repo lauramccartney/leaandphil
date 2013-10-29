@@ -6,7 +6,6 @@ body, html {
     overflow: hidden;
     padding:  0;
     margin:   0;
-    
 }
 
 
@@ -23,6 +22,18 @@ body {
        -moz-background-size: cover;
          -o-background-size: cover;
             background-size: cover;
+}
+
+/* Default BG image that is visible by default, fadesout on load */
+/* So we don't have a janky loading screen while images and JS load */
+#loading-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background: #bbb url('../img/titledate.png') no-repeat center 45%;
 }
 
 
@@ -247,7 +258,7 @@ nav {
     width:                  1em;
     height:                 6em;
     margin:                 auto;
-    z-index:                101;
+    z-index:                9;
     font-size:              16px;
     text-align:             center;
 }
