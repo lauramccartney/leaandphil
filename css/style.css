@@ -33,15 +33,10 @@ h2, h3 {
 
 h2 {
     text-align:             center;
-    margin:                 30px 0 50px 0;
+    margin:                 20px 0 30px 0;
     font-size:              70px;
     line-height:            90px;
     vertical-align:         top;
-}
-
-h3 {
-    margin:                 60px auto 10px auto;
-    font-size:              30px;
 }
 
 
@@ -53,8 +48,9 @@ a {
 }
 
 p {
-    font-size:              16px;
-    color:                  #fff;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -63,6 +59,7 @@ article {
     overflow: hidden;
     background-image: url('../img/snowflaketransparent.png');
 }
+
 
 /* Containers within an article - named to not conflict with bootstrap */
 .content-container {
