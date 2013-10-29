@@ -16,7 +16,7 @@ img {
 }
 
 body {
-    background: url('../img/blurred.png') fixed no-repeat bottom right;
+    background: url('../img/blurred.jpg') fixed no-repeat bottom right;
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
@@ -198,8 +198,8 @@ article {
 .the-plan       { background-image: url('../img/theplan_underline.png');    }
 .the-church     { background-image: url('../img/thechurch_underline.png');  }
 .close-house    { background-image: url('../img/closehouse_underline.png'); }
-.other-bits     { background-image: url('../img/otherbitsunderline.png');   }
-.the-story      { background-image: url('../img/storyunderline.png');       }
+.other-bits     { background-image: url('../img/otherbits_underline.png');   }
+.the-story      { background-image: url('../img/story_underline.png');       }
 
 
 
