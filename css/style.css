@@ -18,6 +18,7 @@ body {
 
 
 article {
+    position: relative;
     overflow:               hidden;
 }
 
@@ -69,21 +70,23 @@ p {
     height:                 100%;
 }
 
+
+
 /* First Slide */
-.title-image {
-    /* Visually center - due to human perception, we need this to be slightly above center */
-    margin: -30px 0 0 0;
-    background: url('../img/titledate.png') no-repeat center center;
-    height: 100%;
+.article-title {
+    background: url('../img/titledate.png') no-repeat center 45%;
 }
 
 .down-button {
     display: block;
     background: url('../img/downbutton.png') no-repeat;
     background-position: top center;
-    /* 45px height - 30px margin from title-image + 20px from bottom of screen */
     height: 45px;
-    margin: -35px 0 0 0;
+    width: 100px;
+    margin: 0 0 0 -50px;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
 }
 
 /*Common page elements*/
