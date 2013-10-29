@@ -10,9 +10,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- <link rel="stylesheet" href="./css/media-queries.css"> -->
 
-    <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
-    <![endif]-->
+    <script src="./js/modernizr.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -171,14 +169,23 @@
 
 
     <script src="./js/jquery.1.10.2.min.js" type="text/javascript"></script>
-    <script src="./js/jquery.mousewheel.min.js" type="text/javascript"></script>
-    <script src="./js/jquery.event.move.min.js" type="text/javascript"></script>
-    <script src="./js/jquery.event.swipe.min.js" type="text/javascript"></script>
-    <script src="./js/jquery.snappish.min.js" type="text/javascript"></script>
-    <script src="./js/keypress.min.js" type="text/javascript"></script>
-
     <script src="./js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="./js/app.js" type="text/javascript"></script>
+
+    <script type="text/javascript" charset="utf-8">
+        // Ancient browsers like IE8+9 don't get any fancy scrolling
+        Modernizr.load({
+            test: Modernizr.cssanimations,
+            yep : [
+                './js/jquery.mousewheel.min.js',
+                './js/jquery.event.move.min.js',
+                './js/jquery.event.swipe.min.js',
+                './js/jquery.snappish.min.js',
+                './js/keypress.min.js',
+                './js/app.js'
+            ],
+            nope : './css/basic.css'
+        });
+    </script>
 
 </body>
 </html>
