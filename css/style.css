@@ -60,7 +60,7 @@ a:active, a:focus {
     outline: none;
 }
 
-p {
+p, dl {
     font-size: 14px;
     color: #fff;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -146,6 +146,42 @@ article {
     text-align: left;
 }
 
+
+
+/* Description List - make title left aligned in horizontal orientation */
+.dl-horizontal dt {
+    text-align: left;
+    font-weight: normal;
+    width: 130px;
+}
+
+.dl-horizontal dd {
+    margin-left: 130px;
+    text-align: right;
+}
+
+/* Room List */
+.dl-horizontal.rooms {
+    width: 170px;
+}
+
+
+/* Taxi List */
+.dl-horizontal.taxis {
+    margin: 0 auto;
+    width: 230px;
+}
+
+
+/* Hotel List */
+.dl-horizontal.hotels {
+    margin: 0 auto;
+    width: 370px;
+}
+
+.dl-horizontal.hotels dt {
+    width: 270px;
+}
 
 
 
