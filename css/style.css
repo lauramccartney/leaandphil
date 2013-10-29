@@ -9,10 +9,11 @@ body, html {
     
 }
 
+
 /* Saves the hassle of making truly responsive images */
 img {
-    max-width:  100%;
-    max-height: 100%;
+    width:  100%;
+    height: 100%;
 }
 
 body {
@@ -34,9 +35,9 @@ h2, h3 {
 
 h2 {
     text-align:             center;
-    margin:                 20px 0 30px 0;
-    font-size:              70px;
-    line-height:            90px;
+    margin:                 15px 0 30px 0;
+    font-size:              60px;
+    line-height:            80px;
     vertical-align:         top;
 }
 
@@ -59,9 +60,8 @@ a:active, a:focus {
     outline: none;
 }
 
-
 p {
-    font-size: 15px;
+    font-size: 14px;
     color: #fff;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
@@ -71,6 +71,7 @@ p.lede {
 }
 
 
+/* Each 'page' is an article */
 article {
     position: relative;
     overflow: hidden;
@@ -86,15 +87,11 @@ article {
 }
 
 
-/* IE doesn't like the max-width 100% declaration. So a specific rule here is needed */
-.content-container img {
-    max-width: 450px;
-}
-
 
 /* Division of sections within articles */
 .left-half, .right-half {
     width: 50%;
+    max-width: 450px;
 }
 
 .left-half  { float: left; padding-right: 10px; }
@@ -103,6 +100,7 @@ article {
 .center-full { width: 100%; }
 .center-text { text-align: center; }
 .double-margin { margin-top: 2em;}
+
 
 
 /* First Slide */
@@ -124,13 +122,7 @@ article {
 
 
 
-
-
-
-
-
 /* Large photos with captions */
-
 .caption-image-container > img {
     -webkit-box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
        -moz-box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
@@ -192,14 +184,14 @@ article {
 /* Headers with underlines */
 .the-plan, .the-church, .close-house, .other-bits, .the-story {
     background-repeat:      no-repeat;
-    background-position:    center 80px;
+    background-position:    center 70px;
 }
 
 .the-plan       { background-image: url('../img/theplan_underline.png');    }
 .the-church     { background-image: url('../img/thechurch_underline.png');  }
 .close-house    { background-image: url('../img/closehouse_underline.png'); }
-.other-bits     { background-image: url('../img/otherbits_underline.png');   }
-.the-story      { background-image: url('../img/story_underline.png');       }
+.other-bits     { background-image: url('../img/otherbits_underline.png');  }
+.the-story      { background-image: url('../img/story_underline.png');      }
 
 
 
