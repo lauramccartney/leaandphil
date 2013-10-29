@@ -70,16 +70,20 @@ p {
 }
 
 /* First Slide */
-#titleImage {
-    background:             url('../img/titledate.png') no-repeat center center;
-    height:                 100%;
-    margin-top:             -30px;
+.title-image {
+    /* Visually center - due to human perception, we need this to be slightly above center */
+    margin: -30px 0 0 0;
+    background: url('../img/titledate.png') no-repeat center center;
+    height: 100%;
 }
 
-.downButton {
-    background:             url('../img/downbutton.png') no-repeat;
-    background-position:    bottom center;
-    height:                 90px;
+.down-button {
+    display: block;
+    background: url('../img/downbutton.png') no-repeat;
+    background-position: top center;
+    /* 45px height - 30px margin from title-image + 20px from bottom of screen */
+    height: 45px;
+    margin: -35px 0 0 0;
 }
 
 /*Common page elements*/

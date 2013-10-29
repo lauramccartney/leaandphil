@@ -9,7 +9,7 @@ $(document).ready(function () {
         data.fromSlide.removeClass('active');
     });
 
-    $('nav a').on('click', function(e) {
+    $(".snappish-nav").on('click', function(e) {
         e.preventDefault();
         $snappish.trigger('scrollto.snappish', $(this).data('slide-num'));
     });
