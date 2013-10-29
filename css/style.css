@@ -47,10 +47,16 @@ h2 {
 a {
     font-weight: bold;
     color: #fff;
+    outline: none;
 }
+
 a:hover {
     text-decoration: none;
     color: #ddd;
+}
+
+a:active, a:focus {
+    outline: none;
 }
 
 
