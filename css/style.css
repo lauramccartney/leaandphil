@@ -16,25 +16,13 @@ body {
             background-size: cover;
 }
 
-
 article {
     position: relative;
     overflow: hidden;
-    background-image:       url('../img/snowflaketransparent.png');
+    background-image: url('../img/snowflaketransparent.png');
 }
 
 
-h1 {
-    text-align:             center;
-    margin-top:             70px;
-    font-size:              70px;
-    line-height:            40px;
-    font-family:            "Heffler Text", sans-serif;
-    text-rendering:         optimizeLegibility; 
-    letter-spacing:         0;
-    color:                  #fff;
-    position:               relative;
-}
 
 
 p {
@@ -49,20 +37,17 @@ p {
     text-align:             center;
 }
 
-.snowflake {
-}
 
 
-
-/*containers*/
+/*containers */
 .container {
-    width:                  1400px;
-    height:                 100%;
+/*    width:                  1400px;*/
+/*    height:                 100%;*/
 }
 
 .textPage {
-    width:                  800px;
-    height:                 100%;
+/*    width:                  800px;*/
+/*    height:                 100%;*/
 }
 
 
@@ -83,14 +68,6 @@ p {
     left: 50%;
 }
 
-
-
-
-/*Common page elements*/
-/*Margin between header and first line. Needs to be different to margins within p tag*/
-.topMargin {
-    margin-top:             60px;
-}
 
 
 
@@ -232,33 +209,30 @@ a {
     width:                  600px;
 }
 
-/*Underlines*/
-.underline {
+
+
+
+
+/* Headers with underlines */
+h1 {
+    text-align:             center;
+    margin:                 30px 0 50px 0;
+    font-size:              70px;
+    line-height:            80px;
+    vertical-align:         top;
+    font-family:            "Heffler Text", serif;
+    text-rendering:         optimizeLegibility; 
+    color:                  #fff;
     background-repeat:      no-repeat;
-    height:                 20px;
-    background-position:    center;
-    position:               relative;
+    background-position:    center 70px;
 }
 
-.plan {
-    background-image:       url('../img/theplan_underline.png');
-}
 
-.church {
-    background-image:       url('../img/thechurch_underline.png'); 
-}
-
-.closeHouse {
-    background-image:       url('../img/closehouse_underline.png');   
-}
-
-.bits {
-    background-image:       url('../img/otherbitsunderline.png');
-}
-
-.story {
-    background-image:       url('../img/storyunderline.png');
-}
+.the-plan       { background-image: url('../img/theplan_underline.png');    }
+.the-church     { background-image: url('../img/thechurch_underline.png');  }
+.close-house    { background-image: url('../img/closehouse_underline.png'); }
+.other-bits     { background-image: url('../img/otherbitsunderline.png');   }
+.the-story      { background-image: url('../img/storyunderline.png');       }
 
 
 
