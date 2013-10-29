@@ -93,13 +93,9 @@ article {
 .left-half  { float: left; padding-right: 10px; }
 .right-half { float: right; padding-left: 10px; }
 
-.center-full {
-    width: 100%;
-}
-
-.center-text {
-    text-align: center;
-}
+.center-full { width: 100%; }
+.center-text { text-align: center; }
+.double-margin { margin-top: 2em;}
 
 
 /* First Slide */
