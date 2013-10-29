@@ -158,19 +158,31 @@ article {
 
 
 
-/*Slider page*/
-#myCarousel {
-    position:               relative;
-    margin-left:            auto;
-    margin-right:           auto;
-    margin-top:             50px;
-    overflow:               auto; 
-    width:                  600px;
-    height:                 400px;
-    
-    -webkit-box-shadow:     1px 1px 9px rgba(50, 50, 50, 0.30);
-    -moz-box-shadow:        1px 1px 9px rgba(50, 50, 50, 0.30);
-    box-shadow:             1px 1px 9px rgba(50, 50, 50, 0.30);
+/* Image Carousel on Story-So-Far */
+.carousel {
+    margin:   50px auto 0 auto;
+    width:    600px;
+    height:   400px;
+
+    -webkit-box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
+            box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-control {
+    vertical-align: middle;
+    line-height: 400px;
+    font-size: 30px;
+}
+
+.carousel-control.left {
+    padding-left: 10px;
+    text-align: left !important;
+}
+
+.carousel-control,
+.carousel-control:hover {
+    background: transparent !important;
 }
 
 
