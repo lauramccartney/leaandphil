@@ -11,7 +11,7 @@ body, html {
 
 /* Saves the hassle of making truly responsive images */
 img {
-    max-width: 100%;
+    max-width:  100%;
     max-height: 100%;
 }
 
@@ -79,17 +79,11 @@ article {
     max-width: 900px;
 }
 
-/* Clearfix for the container */
-.content-container:before,
-.content-container:after {
-    content: " ";
-    display: table;
-}
 
-.content-container:after {
-    clear: both;
+/* IE doesn't like the max-width 100% declaration. So a specific rule here is needed */
+.content-container img {
+    max-width: 450px;
 }
-
 
 
 /* Division of sections within articles */
