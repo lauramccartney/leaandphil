@@ -48,9 +48,13 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 15px;
     color: #fff;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+p.lede {
+    font-weight: bold;
 }
 
 
@@ -58,12 +62,14 @@ article {
     position: relative;
     overflow: hidden;
     background-image: url('../img/snowflaketransparent.png');
+    padding: 0 50px 0 50px; /* Leaves space for the nav */
 }
 
 
 /* Containers within an article - named to not conflict with bootstrap */
 .content-container {
-    margin: 0 50px;
+    margin: 0 auto;
+    max-width: 900px;
 }
 
 /* Clearfix for the container */
@@ -83,8 +89,17 @@ article {
 .left-half, .right-half {
     width: 50%;
 }
+
 .left-half  { float: left; padding-right: 10px; }
 .right-half { float: right; padding-left: 10px; }
+
+.center-full {
+    width: 100%;
+}
+
+.center-text {
+    text-align: center;
+}
 
 
 /* First Slide */
@@ -112,6 +127,7 @@ article {
 
 
 /* Large photos with captions */
+
 .caption-image-container > img {
     -webkit-box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
        -moz-box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
@@ -121,6 +137,18 @@ article {
 .caption-image-container > span {
     display: block;
 }
+
+/* Images on the left need to be right aligned, and vice-versa */
+.left-half .caption-image-container {
+    float: right;
+    text-align: right;
+}
+
+.right-half .caption-image-container {
+    float: left;
+    text-align: left;
+}
+
 
 
 
