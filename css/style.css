@@ -22,6 +22,41 @@ body {
             background-size: cover;
 }
 
+
+/* Headers */
+h1, h2, h3, h4 {
+    font-family:            "Heffler Text", serif;
+    text-rendering:         optimizeLegibility; 
+    color:                  #fff;
+    text-shadow:            0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align:             center;
+    margin:                 30px 0 50px 0;
+    font-size:              70px;
+    line-height:            90px;
+    vertical-align:         top;
+}
+
+h2 {
+    text-align:             center;
+    margin:                 60px auto 10px auto;
+    font-size:              30px;
+    position:               relative;
+}
+
+h3 {
+    font-size:              25px;
+    line-height:            1.5em;
+    margin-top:             15px;
+    margin-bottom:          0px;
+}
+
+
+
+
+
 a { color: #d0d0d0; }
 
 p {
@@ -85,18 +120,6 @@ article {
 
 
 
-h3 {
-    font-size:              25px;
-    line-height:            1.5em;
-    font-family:            "Heffler Text", sans-serif;
-    text-rendering:         optimizeLegibility; 
-    letter-spacing:         0;
-    color:                  #d0d0d0;
-    margin-top:             15px;
-    margin-bottom:          0px;
-    text-shadow:            1px 1px 4px rgba(0, 0, 0, 0.3);
-    
-}
 
 
 
@@ -113,24 +136,6 @@ h3 {
     display: block;
 }
 
-
-/* Menu page */
-h2 {
-    text-align:             center;
-    margin:                 60px auto 10px auto;
-    font-size:              30px;
-    font-family:            "Heffler Text", sans-serif;
-    text-rendering:         optimizeLegibility; 
-    letter-spacing:         0;
-    color:                  #d0d0d0;
-    position:               relative;
-    text-shadow:            1px 1px 4px rgba(0, 0, 0, 0.3);
-}
-
-.menuText {
-    text-align:             center;
-    margin-top:             -10px;
-}
 
 
 
@@ -152,20 +157,12 @@ h2 {
 
 
 
+
 /* Headers with underlines */
-h1 {
-    text-align:             center;
-    margin:                 30px 0 50px 0;
-    font-size:              70px;
-    line-height:            90px;
-    vertical-align:         top;
-    font-family:            "Heffler Text", serif;
-    text-rendering:         optimizeLegibility; 
-    color:                  #fff;
+.the-plan, .the-church, .close-house, .other-bits, .the-story {
     background-repeat:      no-repeat;
     background-position:    center 80px;
 }
-
 
 .the-plan       { background-image: url('../img/theplan_underline.png');    }
 .the-church     { background-image: url('../img/thechurch_underline.png');  }
