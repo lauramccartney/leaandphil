@@ -1,14 +1,19 @@
+
+
 body, html {
-    width:                  100%;
-    height:                 100%;
-    overflow:               hidden;
-    padding:                0;
-    margin:                 0;
-    background:             url('../img/blurred.png') fixed no-repeat bottom right;
+    width:    100%;
+    height:   100%;
+    overflow: hidden;
+    padding:  0;
+    margin:   0;
+}
+
+body {
+    background: url('../img/blurred.png') fixed no-repeat bottom right;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 
