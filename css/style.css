@@ -6,6 +6,12 @@ body, html {
     overflow: hidden;
     padding:  0;
     margin:   0;
+    
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 body {
@@ -32,6 +38,33 @@ article {
     background-image: url('../img/snowflaketransparent.png');
 }
 
+/* Containers within an article - named to not conflict with bootstrap */
+.content-container {
+    margin: 0 50px;
+}
+
+/* Clearfix for the container */
+.content-container:before,
+.content-container:after {
+    content: " ";
+    display: table;
+}
+
+.content-container:after {
+    clear: both;
+}
+
+
+
+/* Division of sections within articles */
+.left-half, .right-half {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+.left-half  { float: left; }
+.right-half { float: right; }
+
 
 /* First Slide */
 .article-title {
@@ -53,7 +86,6 @@ article {
 
 
 h3 {
-    position:               relative;
     font-size:              25px;
     line-height:            1.5em;
     font-family:            "Heffler Text", sans-serif;
@@ -68,29 +100,17 @@ h3 {
 
 
 
-/* images */
-
-#closeHouseImage {
-    position:               relative;
-    top:                    -355px;
-    float:                  left;
-    height:                 500px;
-    width:                  500px;
-}
-
-#churchMap {
-    position:               relative;
-    top:                    -415px;
-    float:                  right;
-    height:                 500px;
-    width:                  500px;
-}
 
 
-.images {
+/* Large photos with captions */
+.caption-image-container > img {
     -webkit-box-shadow:     1px 1px 9px rgba(50, 50, 50, 0.30);
        -moz-box-shadow:     1px 1px 9px rgba(50, 50, 50, 0.30);
             box-shadow:     1px 1px 9px rgba(50, 50, 50, 0.30);
+}
+
+.caption-image-container > span {
+    display: block;
 }
 
 
