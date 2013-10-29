@@ -19,7 +19,8 @@ body {
 
 article {
     position: relative;
-    overflow:               hidden;
+    overflow: hidden;
+    background-image:       url('../img/snowflaketransparent.png');
 }
 
 
@@ -49,12 +50,6 @@ p {
 }
 
 .snowflake {
-    position:               absolute;
-    top:                    0px;
-    bottom:                 0px;
-    right:                  0px;
-    left:                   0px;
-    background-image:       url('../img/snowflaketransparent.png');
 }
 
 
@@ -78,7 +73,6 @@ p {
 }
 
 .down-button {
-    display: block;
     background: url('../img/downbutton.png') no-repeat;
     background-position: top center;
     height: 45px;
@@ -88,6 +82,9 @@ p {
     bottom: 15px;
     left: 50%;
 }
+
+
+
 
 /*Common page elements*/
 /*Margin between header and first line. Needs to be different to margins within p tag*/
