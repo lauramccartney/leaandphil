@@ -14,6 +14,7 @@ body, html {
 img {
     width:  100%;
     height: 100%;
+    -ms-interpolation-mode: bicubic;
 }
 
 body {
@@ -89,13 +90,12 @@ article {
 
 
 /* Division of sections within articles */
-.left-half, .right-half {
+.text-section, .image-section {
     width: 50%;
-    max-width: 450px;
 }
 
-.left-half  { float: left; padding-right: 10px; }
-.right-half { float: right; padding-left: 10px; }
+.section-left  { float: left; padding-right: 10px; }
+.section-right { float: right; padding-left: 10px; }
 
 .center-full { width: 100%; }
 .center-text { text-align: center; }
@@ -149,16 +149,39 @@ article {
 
 
 /* Description List - make title left aligned in horizontal orientation */
+/* Override bootstrap, which forces this to disappear below 768px */
 .dl-horizontal dt {
-    text-align: left;
-    font-weight: normal;
+    float: left;
     width: 130px;
+    overflow: hidden;
+    clear: left;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: normal;
 }
-
 .dl-horizontal dd {
     margin-left: 130px;
     text-align: right;
 }
+.dl-horizontal dd:before,
+.dl-horizontal dd:after {
+    display: table;
+    content: " ";
+}
+.dl-horizontal dd:after {
+    clear: both;
+}
+.dl-horizontal dd:before,
+.dl-horizontal dd:after {
+    display: table;
+    content: " ";
+}
+.dl-horizontal dd:after {
+    clear: both;
+}
+
+
 
 /* Room List */
 .dl-horizontal.rooms {
@@ -176,11 +199,11 @@ article {
 /* Hotel List */
 .dl-horizontal.hotels {
     margin: 0 auto;
-    width: 370px;
+    width: 350px;
 }
 
 .dl-horizontal.hotels dt {
-    width: 270px;
+    width: 250px;
 }
 
 
@@ -188,39 +211,19 @@ article {
 
 /* Image Carousel on Story-So-Far */
 .carousel {
-    margin:   50px auto 0 auto;
-    width:    600px;
-    height:   400px;
+    margin: 50px auto 0 auto;
+    max-width: 600px;
+    max-height: 400px;
 
-    -webkit-box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
-       -moz-box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
-            box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.2);
+            box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.2);
 }
-
-.carousel-control {
-    vertical-align: middle;
-    line-height: 400px;
-    font-size: 30px;
-}
-
-.carousel-control.left {
-    padding-left: 10px;
-    text-align: left !important;
-}
-
-.carousel-control,
-.carousel-control:hover {
-    background: transparent !important;
-}
-
-
-
-
 
 /* Headers with underlines */
 .the-plan, .the-church, .close-house, .other-bits, .the-story {
-    background-repeat:      no-repeat;
-    background-position:    center 70px;
+    background-repeat:   no-repeat;
+    background-position: center 70px;
 }
 
 .the-plan       { background-image: url('../img/theplan_underline.png');    }
