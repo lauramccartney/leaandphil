@@ -16,40 +16,21 @@ body {
             background-size: cover;
 }
 
-article {
-    position: relative;
-    overflow: hidden;
-    background-image: url('../img/snowflaketransparent.png');
-}
-
-
-
+a { color: #d0d0d0; }
 
 p {
     font-size:              16px;
-    text-rendering:         optimizeLegibility; 
     letter-spacing:         0;
     color:                  #fff;
     position:               relative;
 }
 
-.centerText {
-    text-align:             center;
+
+article {
+    position: relative;
+    overflow: hidden;
+    background-image: url('../img/snowflaketransparent.png');
 }
-
-
-
-/*containers */
-.container {
-/*    width:                  1400px;*/
-/*    height:                 100%;*/
-}
-
-.textPage {
-/*    width:                  800px;*/
-/*    height:                 100%;*/
-}
-
 
 
 /* First Slide */
@@ -71,13 +52,6 @@ p {
 
 
 
-/*Church page*/
-.churchText {
-    width:                  600px;
-    float:                  left;
-}
-
-
 h3 {
     position:               relative;
     font-size:              25px;
@@ -92,22 +66,6 @@ h3 {
     
 }
 
-.directions {
-    font-size:              14px;
-    line-height:            1.5em;
-    text-rendering:         optimizeLegibility; 
-}
-
-.extraMargin {
-    margin-top:             20px;
-}
-
-
-/*Close House page*/
-.closeText {
-    width:                  600px;
-    float:                  right;
-}
 
 
 /* images */
@@ -128,29 +86,15 @@ h3 {
     width:                  500px;
 }
 
-.addresses {
-    font-size:              14px;
-    text-rendering:         optimizeLegibility; 
-    letter-spacing:         0;
-    color:                  #d0d0d0;
-    text-decoration:        none;
-    text-align:             center;
-    padding-top:            5px;
-    width:                  500px;
-}
 
 .images {
-    width:                  500px;
-    height:                 359px;
-    
-    
     -webkit-box-shadow:     1px 1px 9px rgba(50, 50, 50, 0.30);
-    -moz-box-shadow:        1px 1px 9px rgba(50, 50, 50, 0.30);
-    box-shadow:             1px 1px 9px rgba(50, 50, 50, 0.30);
+       -moz-box-shadow:     1px 1px 9px rgba(50, 50, 50, 0.30);
+            box-shadow:     1px 1px 9px rgba(50, 50, 50, 0.30);
 }
 
 
-/*Menu page*/
+/* Menu page */
 h2 {
     text-align:             center;
     margin:                 60px auto 10px auto;
@@ -168,23 +112,7 @@ h2 {
     margin-top:             -10px;
 }
 
-/*otherbits page*/
 
-.taxis {
-    display:                inline-block;
-    width:                  150px;
-    text-align:             left;
-}
-
-.accomodation {
-    display:                inline-block;
-    width:                  280px;
-    text-align:             left;
-}
-
-a {
-    color:                  #d0d0d0;
-}
 
 /*Slider page*/
 #myCarousel {
@@ -201,15 +129,6 @@ a {
     box-shadow:             1px 1px 9px rgba(50, 50, 50, 0.30);
 }
 
-#rsvp {
-    text-align:             center;
-    margin-top:             50px;
-    margin-right:           auto;
-    margin-left:            auto;
-    width:                  600px;
-}
-
-
 
 
 
@@ -218,13 +137,13 @@ h1 {
     text-align:             center;
     margin:                 30px 0 50px 0;
     font-size:              70px;
-    line-height:            80px;
+    line-height:            90px;
     vertical-align:         top;
     font-family:            "Heffler Text", serif;
     text-rendering:         optimizeLegibility; 
     color:                  #fff;
     background-repeat:      no-repeat;
-    background-position:    center 70px;
+    background-position:    center 80px;
 }
 
 
@@ -275,9 +194,9 @@ nav ul a {
     border-radius:          4px;
     margin:                 0 auto;
     -webkit-transition:     all 0.25s ease;
-    -moz-transition:        all 0.25s ease;
-    -o-transition:          all 0.25s ease;
-    transition:             all 0.25s ease;
+       -moz-transition:     all 0.25s ease;
+         -o-transition:     all 0.25s ease;
+            transition:     all 0.25s ease;
 }
 
 nav ul a.active {
