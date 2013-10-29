@@ -12,12 +12,6 @@ body, html {
 }
 
 
-/* All Articles */
-#wrapper {
-    width:                  100%;
-    height:                 100%;
-}
-
 article {
     overflow:               hidden;
 }

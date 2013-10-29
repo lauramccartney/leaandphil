@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var $snappish = $('#wrapper').snappish();
+    var $snappish = $('body').snappish();
 
     $snappish.on('scrollbegin.snappish', function(e, data) {
         data.toSlide.addClass('active');
