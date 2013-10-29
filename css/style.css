@@ -23,15 +23,15 @@ body {
 }
 
 
-/* Headers */
-h1, h2, h3, h4 {
+/* Headers - H1 is for screen readers only */
+h2, h3 {
     font-family:            "Heffler Text", serif;
     text-rendering:         optimizeLegibility; 
     color:                  #fff;
-    text-shadow:            0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-shadow:            0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-h1 {
+h2 {
     text-align:             center;
     margin:                 30px 0 50px 0;
     font-size:              70px;
@@ -39,31 +39,22 @@ h1 {
     vertical-align:         top;
 }
 
-h2 {
-    text-align:             center;
+h3 {
     margin:                 60px auto 10px auto;
     font-size:              30px;
-    position:               relative;
-}
-
-h3 {
-    font-size:              25px;
-    line-height:            1.5em;
-    margin-top:             15px;
-    margin-bottom:          0px;
 }
 
 
 
 
-
-a { color: #d0d0d0; }
+/* Paragraph level stuff */
+a {
+    color: #00f;
+}
 
 p {
     font-size:              16px;
-    letter-spacing:         0;
     color:                  #fff;
-    position:               relative;
 }
 
 
@@ -94,11 +85,9 @@ article {
 /* Division of sections within articles */
 .left-half, .right-half {
     width: 50%;
-    margin: 0;
-    padding: 0;
 }
-.left-half  { float: left; }
-.right-half { float: right; }
+.left-half  { float: left; padding-right: 10px; }
+.right-half { float: right; padding-left: 10px; }
 
 
 /* First Slide */
@@ -127,9 +116,9 @@ article {
 
 /* Large photos with captions */
 .caption-image-container > img {
-    -webkit-box-shadow:     1px 1px 9px rgba(50, 50, 50, 0.30);
-       -moz-box-shadow:     1px 1px 9px rgba(50, 50, 50, 0.30);
-            box-shadow:     1px 1px 9px rgba(50, 50, 50, 0.30);
+    -webkit-box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
+            box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
 }
 
 .caption-image-container > span {
