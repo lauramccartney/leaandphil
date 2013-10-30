@@ -1,0 +1,31 @@
+@media only screen and (max-width:900px) {
+    .image-section {
+        display: none;
+    }
+
+    .text-section {
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+    }
+    
+    .center-full {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Hotels are just a fraction too wide at this size - narrow it down */
+    .dl-horizontal.hotels {
+        width: 250px;
+    }
+
+    .dl-horizontal.hotels dt,
+    .dl-horizontal.hotels dd {
+        clear: both;
+        text-align: left;
+    }
+
+    .dl-horizontal.hotels dd {
+        margin: 0 0 10px 0;
+    }
+}

@@ -1,0 +1,297 @@
+
+
+body, html {
+    width:    100%;
+    height:   100%;
+    overflow: hidden;
+    padding:  0;
+    margin:   0;
+}
+
+
+/* Saves the hassle of making truly responsive images */
+img {
+    width:  100%;
+    height: 100%;
+    -ms-interpolation-mode: bicubic;
+}
+
+body {
+    background: url('../img/blurred.jpg') fixed no-repeat bottom right;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+/* Default BG image that is visible by default, fadesout on load */
+/* So we don't have a janky loading screen while images and JS load */
+#loading-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background: #bbb url('../img/titledate.png') no-repeat center 45%;
+}
+
+
+/* Headers - H1 is for screen readers only */
+h2, h3 {
+    font-family:            "Heffler Text", serif;
+    text-rendering:         optimizeLegibility; 
+    color:                  #fff;
+    text-shadow:            0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align:             center;
+    margin:                 15px 0 30px 0;
+    font-size:              60px;
+    line-height:            80px;
+    vertical-align:         top;
+}
+
+
+
+
+/* Paragraph level stuff */
+a {
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ddd;
+}
+
+a:active, a:focus {
+    outline: none;
+}
+
+p, dl {
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+p.lede {
+    font-weight: bold;
+}
+
+
+/* Each 'page' is an article */
+article {
+    position: relative;
+    overflow: hidden;
+    background-image: url('../img/snowflaketransparent.png');
+    padding: 0 50px 0 50px; /* Leaves space for the nav */
+}
+
+
+/* Containers within an article - named to not conflict with bootstrap */
+.content-container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+
+
+/* Division of sections within articles */
+.text-section, .image-section {
+    width: 50%;
+}
+
+.section-left  { float: left; padding-right: 10px; }
+.section-right { float: right; padding-left: 10px; }
+
+.center-full { width: 100%; }
+.center-text { text-align: center; }
+.double-margin { margin-top: 2em;}
+
+
+
+/* First Slide */
+.article-title {
+    background: url('../img/titledate.png') no-repeat center 45%;
+}
+
+.down-button {
+    background: url('../img/downbutton.png') no-repeat;
+    background-position: top center;
+    height: 45px;
+    width: 100px;
+    margin: 0 0 0 -50px;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+}
+
+
+
+
+/* Large photos with captions */
+.caption-image-container > img {
+    -webkit-box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
+            box-shadow:     1px 1px 9px rgba(0, 0, 0, 0.2);
+}
+
+.caption-image-container > span {
+    display: block;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+/* Images on the left need to be right aligned, and vice-versa */
+.left-half .caption-image-container {
+    float: right;
+    text-align: right;
+}
+
+.right-half .caption-image-container {
+    float: left;
+    text-align: left;
+}
+
+
+
+/* Description List - make title left aligned in horizontal orientation */
+/* Override bootstrap, which forces this to disappear below 768px */
+.dl-horizontal dt {
+    float: left;
+    width: 130px;
+    overflow: hidden;
+    clear: left;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: normal;
+}
+.dl-horizontal dd {
+    margin-left: 130px;
+    text-align: right;
+}
+.dl-horizontal dd:before,
+.dl-horizontal dd:after {
+    display: table;
+    content: " ";
+}
+.dl-horizontal dd:after {
+    clear: both;
+}
+.dl-horizontal dd:before,
+.dl-horizontal dd:after {
+    display: table;
+    content: " ";
+}
+.dl-horizontal dd:after {
+    clear: both;
+}
+
+
+
+/* Room List */
+.dl-horizontal.rooms {
+    width: 170px;
+}
+
+
+/* Taxi List */
+.dl-horizontal.taxis {
+    margin: 0 auto;
+    width: 230px;
+}
+
+
+/* Hotel List */
+.dl-horizontal.hotels {
+    margin: 0 auto;
+    width: 350px;
+}
+
+.dl-horizontal.hotels dt {
+    width: 250px;
+}
+
+
+
+
+/* Image Carousel on Story-So-Far */
+.carousel {
+    margin: 50px auto 0 auto;
+    max-width: 600px;
+    max-height: 400px;
+
+    -webkit-box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.2);
+            box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.2);
+}
+
+/* Headers with underlines */
+.the-plan, .the-church, .close-house, .other-bits, .the-story {
+    background-repeat:   no-repeat;
+    background-position: center 70px;
+}
+
+.the-plan       { background-image: url('../img/theplan_underline.png');    }
+.the-church     { background-image: url('../img/thechurch_underline.png');  }
+.close-house    { background-image: url('../img/closehouse_underline.png'); }
+.other-bits     { background-image: url('../img/otherbits_underline.png');  }
+.the-story      { background-image: url('../img/story_underline.png');      }
+
+
+
+
+
+
+
+/* Navigation */
+nav {
+    position:               fixed;
+    left:                   1em;
+    top:                    0;
+    bottom:                 0;
+    width:                  1em;
+    height:                 6em;
+    margin:                 auto;
+    z-index:                9;
+    font-size:              16px;
+    text-align:             center;
+}
+
+nav ul {
+    list-style:             none;
+    padding:                0;
+    text-align:             center;
+    line-height:            1;
+}
+
+nav ul li {
+    padding:                5px 0;
+}
+
+nav ul a {
+    text-decoration:        none;
+    background:             #aaa;
+    display:                block;
+    width:                  8px;
+    height:                 8px;
+    border:                 3px solid transparent;
+    border-radius:          4px;
+    margin:                 0 auto;
+    -webkit-transition:     all 0.25s ease;
+       -moz-transition:     all 0.25s ease;
+         -o-transition:     all 0.25s ease;
+            transition:     all 0.25s ease;
+}
+
+nav ul a.active {
+    background:             transparent;
+    border:                 1px solid #aaa;
+    width:                  10px;
+    height:                 10px;
+}

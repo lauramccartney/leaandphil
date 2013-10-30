@@ -1,0 +1,13 @@
+/* Basic CSS file for ancient browsers like IE8 + 9 */
+
+body {
+    overflow-y: scroll !important;
+}
+
+nav {
+    display: none !important;
+}
+
+#loading-background {
+    display: none !important;
+}
