@@ -1,5 +1,0 @@
-.snappish-wrapper{float:left;z-index:10;overflow:hidden;}
-.snappish-main{width:100%;z-index:9;-webkit-transition-duration:1s;-moz-transition-duration:1s;-o-transition-duration:1s;transition-duration:1s;-webkit-transition-timing-function:ease;-moz-transition-timing-function:ease;-o-transition-timing-function:ease;transition-timing-function:ease;-webkit-transition-property:-webkit-transform;-moz-transition-property:-moz-transform;-o-transition-property:-o-transform;transition-property:transform;}
-.snappish-6-slides{height:600%;}
-.snappish-6-slides .snappish-slide{height:16.66667%;}
-.snappish-slide{width:100%;-webkit-transform:translateZ(0);-moz-transform:translateZ(0);-ms-transform:translateZ(0);-o-transform:translateZ(0);transform:translateZ(0);}
